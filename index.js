@@ -57,19 +57,33 @@
 
 //3)check if the number is odd or even
 
-let even=0
-let odd=0
+// let even=0
+// let odd=0
 
-for(i=0;i<=100;i++)
+// for(i=0;i<=100;i++)
+// {
+//     if(i%2==0)
+//     {
+//         even+=i
+//     }
+//     else{
+//         odd+=i
+//     }
+// }
+// console.log("odd:"+odd);
+// console.log("even:"+even);
+
+
+
+//4)factorial of a number
+
+let num=5;
+let fact=1
+
+for(i=1;i<=num;i++)
 {
-    if(i%2==0)
-    {
-        even+=i
-    }
-    else{
-        odd+=i
-    }
+    fact=fact*i
 }
-console.log("odd:"+odd);
-console.log("even:"+even);
+console.log(fact);
+
 
