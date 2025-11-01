@@ -88,14 +88,32 @@
 
 
 
-function fact(n)
+// function fact(n)
+// {
+//     if(n==1)
+//     {
+//         return 1;
+//     }
+//      return n*fact(n-1)
+// }
+// console.log(fact(5));
+
+
+let str="aeiou"
+let count=0
+let vowels="aeiouAEIOU"
+
+for(i=0;i<str.length;i++)
 {
-    if(n==1)
-    {
-        return 1;
-    }
-     return n*fact(n-1)
+    if(vowels.includes(str[i]))
+        {
+
+            count++
+        }
+    
 }
-console.log(fact(5));
+
+console.log(count);
+
 
 
