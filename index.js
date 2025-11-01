@@ -77,13 +77,25 @@
 
 //4)factorial of a number
 
-let num=5;
-let fact=1
+// let num=5;
+// let fact=1
 
-for(i=1;i<=num;i++)
+// for(i=1;i<=num;i++)
+// {
+//     fact=fact*i
+// }
+// console.log(fact);
+
+
+
+function fact(n)
 {
-    fact=fact*i
+    if(n==1)
+    {
+        return 1;
+    }
+     return n*fact(n-1)
 }
-console.log(fact);
+console.log(fact(5));
 
 
