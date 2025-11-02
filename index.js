@@ -139,14 +139,22 @@
 
 //find the sum of a number
 
-let num=12345678
-let sum=0
+// let num=12345678
+// let sum=0
 
-while(num>0)
-{
-    let digit=num%10
-    sum+=digit
-    num=Math.floor(num/10)
-}
-console.log("The sum is:"+sum);
+// while(num>0)
+// {
+//     let digit=num%10
+//     sum+=digit
+//     num=Math.floor(num/10)
+// }
+// console.log("The sum is:"+sum);
+
+
+
+
+//Count Words in a Sentence
+let sentence=" i love javascript "
+let words=sentence.trim().split(" ")
+console.log(words.length);
 
