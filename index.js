@@ -99,21 +99,38 @@
 // console.log(fact(5));
 
 
-let str="aeiou"
-let count=0
-let vowels="aeiouAEIOU"
 
-for(i=0;i<str.length;i++)
-{
-    if(vowels.includes(str[i]))
-        {
 
-            count++
-        }
+
+//5)if how many vowels are there
+// let str="aeiou"
+// let count=0
+// let vowels="aeiouAEIOU"
+
+// for(i=0;i<str.length;i++)
+// {
+//     if(vowels.includes(str[i]))
+//         {
+
+//             count++
+//         }
     
+// }
+
+// console.log(count);
+
+
+
+//find the largest number in the array
+
+let arr=[23,32,47,94,45]
+let max=arr[0]
+
+for(i=1;i<arr.length;i++)
+{
+    if(arr[i]>max)
+    {
+        max=arr[i]
+    }
 }
-
-console.log(count);
-
-
-
+console.log("Largest number is:"+max);
