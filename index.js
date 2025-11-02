@@ -154,7 +154,15 @@
 
 
 //Count Words in a Sentence
-let sentence=" i love javascript "
-let words=sentence.trim().split(" ")
-console.log(words.length);
+// let sentence=" i love javascript "
+// let words=sentence.trim().split(" ")
+// console.log(words.length);
+
+
+
+//Find the Second Largest Number in an Array
+
+let arr = [10, 40, 30, 20];
+arr.sort((a, b) => b - a); // sort descending
+console.log("Second largest:", arr[1]);
 
