@@ -123,14 +123,30 @@
 
 //find the largest number in the array
 
-let arr=[23,32,47,94,45]
-let max=arr[0]
+// let arr=[23,32,47,94,45]
+// let max=arr[0]
 
-for(i=1;i<arr.length;i++)
+// for(i=1;i<arr.length;i++)
+// {
+//     if(arr[i]>max)
+//     {
+//         max=arr[i]
+//     }
+// }
+// console.log("Largest number is:"+max);
+
+
+
+//find the sum of a number
+
+let num=12345678
+let sum=0
+
+while(num>0)
 {
-    if(arr[i]>max)
-    {
-        max=arr[i]
-    }
+    let digit=num%10
+    sum+=digit
+    num=Math.floor(num/10)
 }
-console.log("Largest number is:"+max);
+console.log("The sum is:"+sum);
+
